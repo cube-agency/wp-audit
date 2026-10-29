@@ -1,4 +1,4 @@
-FROM php:8.4-cli-alpine
+FROM php:8.5-cli-alpine
 RUN apk upgrade --no-cache && \
     apk add --no-cache ca-certificates
 
