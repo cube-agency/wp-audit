@@ -1,0 +1,4 @@
+{"error":0,"message":null,"data":{"core":"6.7","link":"https://wordpress.org/download/releases/","vulnerability":[
+{"uuid":"core-1","name":"6.7","description":null,"source":[{"id":"e5e6e3ca4aa9f69a2e45dfe3cea802af27ac9f4a","name":"WordPress <= 6.9.1 - Authenticated (Author+) XML External Entity Injection","link":"https://www.wordfence.com/threat-intel/vulnerabilities/wordpress-core/example","description":"XXE via the bundled getID3 library.","date":"2026-03-10"}],"impact":[]},
+{"uuid":"core-2","name":"6.7","description":null,"source":[{"id":"CVE-2025-0003","name":"WordPress < 6.7.1 - Stored XSS","link":"https://www.cve.org/CVERecord?id=CVE-2025-0003","description":"Stored XSS.","date":"2025-01-01"}],"impact":{"cvss3":{"version":"3.1","score":"6.4","severity":"medium"}}}
+]},"updated":1784485982}
