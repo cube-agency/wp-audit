@@ -30,7 +30,7 @@ wp audit:
     - wp-audit
   artifacts:
     when: always
-    expire_in: 30 days
+    expire_in: 24 hours
     paths:
       - wp-audit.json
 ```
