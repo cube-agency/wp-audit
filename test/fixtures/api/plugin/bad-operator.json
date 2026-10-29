@@ -1,0 +1,3 @@
+{"error":0,"message":null,"data":{"name":"Bad Operator","plugin":"bad-operator","link":null,"latest":null,"closed":null,"closed_reason":null,"closed_date":null,"vulnerability":[
+{"uuid":"bad-1","name":"Bad Operator [bad-operator] <= 1.0","description":null,"operator":{"min_version":null,"min_operator":null,"max_version":"1.0","max_operator":"lte","unfixed":"0","closed":"0"},"source":[{"id":"CVE-2026-0001","name":"CVE-2026-0001","link":"https://www.cve.org/CVERecord?id=CVE-2026-0001","description":"[en] Operator the tool does not know.","date":"2026-01-01"}],"impact":{"cvss3":{"version":"3.1","score":"7.5","severity":"high"}}}
+]},"updated":1784485982}

@@ -1,0 +1,19 @@
+{
+    "site": "https://www.example.test",
+    "env": "production",
+    "generated_at": "2026-10-29T06:00:00Z",
+    "core": { "version": "6.7", "latest": "7.1.4", "checked_at": "2026-01-01T06:00:00Z" },
+    "php": "8.1.2-1ubuntu2.14",
+    "db": "8.0.36",
+    "multisite": false,
+    "plugins_checked_at": "2026-01-01T06:00:00Z",
+    "plugins": [
+        { "file": "akismet/akismet.php", "slug": "akismet", "name": "Akismet", "version": "5.3", "latest": "5.4", "active": true, "source": "wporg", "requires_php": "7.2" },
+        { "file": "wordpress-seo/wp-seo.php", "slug": "wordpress-seo", "name": "Yoast SEO", "version": "26.0", "latest": "26.0", "active": true, "source": "wporg", "requires_php": "7.4" },
+        { "file": "advanced-custom-fields-pro/acf.php", "slug": null, "name": "Advanced Custom Fields PRO", "version": "6.3.0", "latest": "6.4.0", "active": true, "source": "premium", "requires_php": null, "seen_at": "2026-10-01T08:00:00Z" },
+        { "file": "custom-thing/custom-thing.php", "slug": null, "name": "Custom Thing", "version": "1.0", "latest": null, "active": true, "source": "other", "requires_php": null, "latest_unknown": "no_source" },
+        { "file": "hello.php", "slug": null, "name": "Hello Dolly", "version": "1.7.2", "latest": null, "active": false, "source": "other", "requires_php": null, "latest_unknown": "inactive" }
+    ],
+    "mu_plugins": ["wp-audit-monitor.php"],
+    "flags": { "DISALLOW_FILE_MODS": false, "WP_DEBUG": false, "WP_DEBUG_DISPLAY": false, "DISABLE_WP_CRON": true, "cron_overdue_min": 0, "blog_public": true }
+}

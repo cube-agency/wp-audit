@@ -1,0 +1,15 @@
+{
+    "site": "https://broken.example.test",
+    "env": "staging",
+    "generated_at": "{{NOW}}",
+    "core": { "version": "7.1.4", "latest": "7.1.4", "checked_at": "{{NOW}}" },
+    "php": "8.3.6",
+    "db": "8.0.36",
+    "multisite": false,
+    "plugins_checked_at": "{{NOW}}",
+    "plugins": [
+        { "file": "bad-operator/bad-operator.php", "slug": "bad-operator", "name": "Bad Operator", "version": "1.0", "latest": "1.0", "active": true, "source": "wporg", "requires_php": null }
+    ],
+    "mu_plugins": ["wp-audit-monitor.php"],
+    "flags": { "DISALLOW_FILE_MODS": true, "WP_DEBUG": false, "WP_DEBUG_DISPLAY": false, "DISABLE_WP_CRON": true, "cron_overdue_min": 0, "blog_public": true }
+}
